@@ -1,0 +1,70 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111; /* Dark background */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Icon Container */
+  .icon-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Icon Styling */
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Ensures the image doesn't spill out */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .icon img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+  }
+  
+  /* Hover Effects */
+  .icon:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Individual Background Colors */
+  .icon.instagram:hover {
+    background: linear-gradient(135deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  }
+  
+  .icon.linkedin:hover {
+    background: #0077b5;
+  }
+  
+  .icon.youtube:hover {
+    background: #ff0000;
+  }
+  
+  .icon.twitter:hover {
+    background: #000; /* Twitter/X branding */
+  }
+  
+  .icon.github:hover {
+    background: #333;
+  }
+  
